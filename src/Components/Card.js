@@ -16,7 +16,7 @@ import React,{useState} from 'react';
  
 
 
- const Submit = () => {
+ const handlesubmit = () => {
 
   const getlastid=data.length;
   console.log(getlastid);
@@ -87,7 +87,7 @@ const handledelete = (cardid) => {
        <input type= "tel" maxLength={4}  className='cardno' onChange={(event)=>setBoxthree(event.target.value)} required></input>
        <input type= "tel"maxLength={4} className='cardno' onChange={(event)=>setBoxfour(event.target.value)} required></input>
      
-         <button onClick={Submit} className='btn'>SUBMIT</button>
+         <button onClick={handlesubmit} className='btn'>SUBMIT</button>
          
        
         
