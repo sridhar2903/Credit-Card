@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Creditcard from './Components/Creditcard';
+import Card from './Components/Card';
 
 function App() {
   return (
     <>
-    <Creditcard/>
+    <Card/>
     </>
   );
 }
